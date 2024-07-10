@@ -1,0 +1,56 @@
+h3{
+    color: rgb(240, 13, 13);
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+form{
+    color: #1db3d9;
+    margin-left: 10px;
+    margin-right: 150px;
+    padding: 10px;
+    padding-right: 1px;
+}
+#i{
+    color: rgb(226, 43, 147);
+    
+}
+#g{
+    color: blue;
+    background-color: violet;
+}
+#u{
+    color: #1db3d9;
+}
+#h{
+    color: blue;
+    background-color: violet
+
+}
+.button{
+    margin: 2px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.button button{
+    border: 1px blue solid;
+    box-shadow: 3px 3px 4px red;
+    padding:  15px 10px;
+    font-weight: 700;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+
+}
+.button button:hover{
+   display: block;
+   filter: drop-shadow(3px 3px 10px red);
+   display: flex;
+    justify-content: center;
+    border: 2px blue solid;
+   
+}
