@@ -112,14 +112,13 @@ nav{
     transition: 0.4s;
     text-decoration: none;
     color: #000;
-
-
 }
 .resigster a:hover{
     background: transparent;
     border: 1px solid indianred;
     font-weight: bold;
     color: white;
+    
 
 }
 .hero-content{
